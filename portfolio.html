@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="styling.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="container">
+            <div class="hero-content">
+                <h1>NITHIN BABU</h1>
+                <p>Web Developer & Designer</p>
+                <p>I create beautiful, responsive websites and applications using modern web technologies.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="C:\Users\Nithi\Documents\project file\task 4\download (1).jpg" width="380" height="180" alt=" Project 1">
+                    </div>
+                    <div class="project-content">
+                        <h3>Project 1: To-Do List</h3>
+                        <p>This is an Interactive To-Do List where you can add, edit, and delete tasks.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="C:\Users\Nithi\Documents\project file\task 4\download.jpg" width="380" height="180" alt="Project 2">
+                        
+                    </div>
+                    <div class="project-content">
+                        <h3>Project 2: Random Joke Generator</h3>
+                        <p>This website randomly generates jokes by fetching jokes from websites using an API.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="C:\Users\Nithi\Documents\project file\task 4\download (2).jpg" width="380" height="180" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3>Project 3: Interactive Recipe Card</h3>
+                        <p>This recipe card contains a Decadent Chocolate Cake. It is an interactive recipe card.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
